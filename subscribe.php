@@ -3,13 +3,17 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
 
+
+                <p class="top_text">Subscribe HUWESDI</p>
+
                 <?php 
                     if(isset($_SESSION['message'])){ 
                         echo $_SESSION['message'];
                         unset($_SESSION['message']); 
                     }
                 ?>
-                <p class="top_text">Subscribe HUWESDI</p>
+
+
                 <h3>Subscribe now to recieve our updates</h3>
                 <!-- <div id="mc_embed_signup"> -->
 
