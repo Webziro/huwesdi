@@ -15,7 +15,7 @@
                      <h4>Give Donations</h4>
                      <p>Your contributions empower us to make a meaningful impact in the lives of individuals.
                          bearing.</p>
-                     <a href="donate.php" class="primary-btn2">Donate </a>
+                     <a href="donate" class="primary-btn2">Donate </a>
                  </div>
              </div>
 
@@ -24,7 +24,7 @@
                      <i class="fi flaticon-bathroom"></i>
                      <h4>Become Volunteer</h4>
                      <p>Become part of our dedicated team, working hand in hand to create meaningful impact.</p>
-                     <a href="volunteer.php" class="primary-btn2">Become a Volunteer</a>
+                     <a href="volunteer" class="primary-btn2">Become a Volunteer</a>
                  </div>
              </div>
 

@@ -17,10 +17,10 @@
                         <h4 class="footer_title">Quick Links</h4>
                         <ul class="list">
 
-                            <li><a href="donate.php">Donate</a></li>
-                            <li><a href="about.php">About</a></li>
-                            <li><a href="about.php">Vision</a></li>
-                            <li><a href="about.php">Mission</a></li>
+                            <li><a href="donate">Donate</a></li>
+                            <li><a href="about">About</a></li>
+                            <li><a href="about">Vision</a></li>
+                            <li><a href="about">Mission</a></li>
                         </ul>
                     </div>
                 </div>

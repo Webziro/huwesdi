@@ -61,14 +61,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
     // Redirect back to the subscription page
-    header("Location: ../index.php");
+    header("Location: ../index");
     exit();
 }
 } else {
     // The form was not submitted
     $_SESSION['message'] = "<div style = 'color: red'> Failed to subscribe. Please try again later.</div>";
     // Redirect back to the subscription page
-    header("Location: ../index.php");
+    header("Location: ../index");
     exit();
 }
 ?>

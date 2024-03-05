@@ -14,7 +14,7 @@
                         diverse areasSince inception, Huwesdi has been promoting synergy for community development,
                         empowerment and enlightenment on tropical issues
                     </p>
-                    <a href="about.php" class="primary-btn mt-5">
+                    <a href="about" class="primary-btn mt-5">
                         Read more
                         <i class="ti-angle-right ml-1"></i>
                     </a>

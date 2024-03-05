@@ -8,7 +8,7 @@
                         Huwesdi is alwasy on the move to cater for the social and humanitarian needs of kids in people
                         in Africa.
                     </p>
-                    <a href="blog-details.php" class="primary-btn2">Show more</a>
+                    <a href="blog-details" class="primary-btn2">Show more</a>
                 </div>
             </div>
 

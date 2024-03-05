@@ -15,6 +15,6 @@ if(isset($_GET["email"])) {
 }
 
 // Redirect back to the subscription page
-header("Location: ../index.php");
+header("Location: ../index");
 exit();
 ?>

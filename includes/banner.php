@@ -5,7 +5,7 @@
              <div class="banner-content col-lg-12">
                  <h1> Contribute your <span style="color: #FF573D; ">QOUTA</span><br> Save the Nation </h1>
                  <h4>We are pirotizing social needs at HUWESDI Africa </h4>
-                 <a href="donate.php" class="primary-btn">
+                 <a href="donate" class="primary-btn">
                      Donate Now
                      <i class="ti-angle-right ml-1"></i>
                  </a>

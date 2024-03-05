@@ -3,7 +3,7 @@
 session_start();
 
 // Include database connection
-include "conn.php";
+include "conn";
 
 // Function to generate a random verification code and Get the current year and Month
 function generateVerificationCode() {
@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Add check to fill in all fields if empty
     if (empty($name) || empty($email) || empty($phone) || empty($talent)) {
         $_SESSION['message'] = "<div style='color: red'>All fields are required!</div>";
-        header("Location: ../volunteer.php");
+        header("Location: ../volunteer");
         exit();
     }
 
@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($email_check_result->num_rows > 0) {
         // Email already exists, show error message
         $_SESSION['message'] = "<div style='color: red'>Email address is already in use!</div>";
-        header("Location: ../volunteer.php");
+        header("Location: ../volunteer");
         exit();
     }
 
@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($phone_check_result->num_rows > 0) {
         // Phone number already exists, show error message
         $_SESSION['message'] = "<div style='color: red'>Phone number is already in use!</div>";
-        header("Location: ../volunteer.php");
+        header("Location: ../volunteer");
         exit();
     }
 
@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($name_check_result->num_rows > 0) {
         //Check if name alerady exists!
         $_SESSION['message'] = "<div style='color: red'>This Name is already in use!</div>";
-        header("Location: ../volunteer.php");
+        header("Location: ../volunteer");
         exit();
     }
 
@@ -111,7 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Redirect back to the signup page
-    header("Location: ../volunteer.php");
+    header("Location: ../volunteer");
     exit();
 }
 

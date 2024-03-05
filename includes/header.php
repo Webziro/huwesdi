@@ -1,7 +1,7 @@
 <header class="default-header">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="index">
                 <img src="img/huwesdilogo.png" width="70px" alt>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -10,11 +10,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li><a class="" href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
+                    <li><a class="" href="index">Home</a></li>
+                    <li><a href="about">About</a></li>
                     <!-- <li><a href="causes.html">Causes</a></li>
                     <li><a href="event.html">Event</a></li> -->
-                    <li><a href="members.php">Board Members</a></li>
+                    <li><a href="members">Board Members</a></li>
                     <li><a href="volunteer.php">Volunteer</a></li>
                     <!-- 
                     <li class="dropdown">
@@ -37,8 +37,8 @@
                             <a class="dropdown-item" href="blog-details.html">Blog Details</a>
                         </div>
                     </li> -->
-                    <li><a href="contact.php">Contact</a></li>
-                    <li><a class="active" href="donate.php">Donate</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a class="active" href="donate">Donate</a></li>
 
                 </ul>
             </div>
