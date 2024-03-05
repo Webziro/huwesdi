@@ -65,7 +65,7 @@
                         echo ($_SESSION['message']);
                         unset($_SESSION['message']);
                     ?>
-                <div class="d-none d-sm-block mb-5 pb-4">
+                <div class=" mb-5 pb-4">
                     <div class="row">
                         <div class="col-12">
                             <h2 class="contact-title">Get in Touch</h2>
