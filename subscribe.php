@@ -6,19 +6,12 @@
 
                 <p class="top_text">Subscribe HUWESDI</p>
 
-                <?php 
-                    if(isset($_SESSION['message'])){ 
-                        echo $_SESSION['message'];
-                        unset($_SESSION['message']); 
-                    }
-                ?>
-
 
                 <h3>Subscribe now to recieve our updates</h3>
                 <!-- <div id="mc_embed_signup"> -->
 
 
-                <form action="includes/sub_process" method="POST">
+                <form action="includes/sub_process.php" method="POST">
                     <div class="row align-items-center">
                         <div class="col-lg-5 mb-lg-0 mb-3">
                             <input class="form-control" name="name" id="name" type="text"

@@ -1,5 +1,5 @@
 <?php
-    include "includes/properties/title"
+    include "includes/properties/title.php"
 
 ?>
 
@@ -38,7 +38,7 @@
     <body>
 
         <!--header area Starts-->
-        <?php include "includes/header";?>
+        <?php include "includes/header.php";?>
         <!--header area Ends-->
 
 
@@ -150,7 +150,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="section-title">
-                            <h2><span> HUWESDI </span> Vision and Mission Statments</h2>
+                            <h2><span> HUWESDI </span> Vision and Mission Statments.</h2>
                         </div>
                     </div>
                 </div>
@@ -239,7 +239,7 @@
 
 
         <!--blogs  footer-->
-        <?php include "includes/footer"; ?>
+        <?php include "includes/footer.php"; ?>
         <!--blogs  footer-->
 
 

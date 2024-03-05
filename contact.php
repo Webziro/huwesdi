@@ -1,5 +1,5 @@
 <?php
-    include "includes/properties/title";
+    include "includes/properties/title.php";
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +37,7 @@
     <body>
 
         <!--header area Starts-->
-        <?php include "includes/header";?>
+        <?php include "includes/header.php";?>
         <!--header area Ends-->
 
 
@@ -65,13 +65,13 @@
                         echo ($_SESSION['message']);
                         unset($_SESSION['message']);
                     ?>
-                <div class=" mb-5 pb-4">
+                <div class="mb-5 pb-4">
                     <div class="row">
                         <div class="col-12">
                             <h2 class="contact-title">Get in Touch</h2>
                         </div>
                         <div class="col-lg-8">
-                            <form class="form-contact contact_form" action="contact_script/contact_process"
+                            <form class="form-contact contact_form" action="contact_script/contact_process.php"
                                 method="POST" id="contactForm">
                                 <div class="row">
                                     <div class="col-12">
@@ -140,7 +140,7 @@
 
 
         <!--blogs  footer-->
-        <?php include "includes/footer"; ?>
+        <?php include "includes/footer.php"; ?>
         <!--blogs  footer-->
 
         <script data-cfasync="false"

@@ -1,5 +1,5 @@
 <?php
-    include "includes/properties/title"
+    include "includes/properties/title.php"
 
 ?>
 
@@ -38,7 +38,7 @@
     <body>
 
         <!--header area Starts-->
-        <?php include "includes/header";?>
+        <?php include "includes/header.php";?>
         <!--header area Ends-->
 
 
@@ -48,7 +48,7 @@
                 <div class="row justify-content-lg-end align-items-center banner-content">
                     <div class="col-lg-5">
                         <h1 class="text-white">Volunteer</h1>
-                        <p>Little Drop makes the diffrence</p>
+                        <p>Little Drop makes the diffrence. Join HUWESDI Today!</p>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                         <h2 class="contact-title">Ready to make a Diffrence?</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="volunteer/volunteerprocess" method="POST"
+                        <form class="form-contact contact_form" action="volunteer/volunteerprocess.php" method="POST"
                             id="contactForm" novalidate="novalidate">
                             <div class="row">
 
@@ -151,7 +151,7 @@
 
 
         <!--blogs  footer-->
-        <?php include "includes/footer"; ?>
+        <?php include "includes/footer.php"; ?>
         <!--blogs  footer-->
 
 
