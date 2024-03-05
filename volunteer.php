@@ -1,5 +1,5 @@
 <?php
-    include "includes/properties/title.php"
+    include "includes/properties/title"
 
 ?>
 
@@ -38,7 +38,7 @@
     <body>
 
         <!--header area Starts-->
-        <?php include "includes/header.php";?>
+        <?php include "includes/header";?>
         <!--header area Ends-->
 
 
@@ -74,7 +74,7 @@
                         <h2 class="contact-title">Ready to make a Diffrence?</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="volunteer/volunteerprocess.php" method="POST"
+                        <form class="form-contact contact_form" action="volunteer/volunteerprocess" method="POST"
                             id="contactForm" novalidate="novalidate">
                             <div class="row">
 
@@ -151,7 +151,7 @@
 
 
         <!--blogs  footer-->
-        <?php include "includes/footer.php"; ?>
+        <?php include "includes/footer"; ?>
         <!--blogs  footer-->
 
 

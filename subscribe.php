@@ -18,7 +18,7 @@
                 <!-- <div id="mc_embed_signup"> -->
 
 
-                <form action="includes/sub_process.php" method="POST">
+                <form action="includes/sub_process" method="POST">
                     <div class="row align-items-center">
                         <div class="col-lg-5 mb-lg-0 mb-3">
                             <input class="form-control" name="name" id="name" type="text"

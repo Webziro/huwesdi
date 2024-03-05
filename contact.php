@@ -1,5 +1,5 @@
 <?php
-    include "includes/properties/title.php";
+    include "includes/properties/title";
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +37,7 @@
     <body>
 
         <!--header area Starts-->
-        <?php include "includes/header.php";?>
+        <?php include "includes/header";?>
         <!--header area Ends-->
 
 
@@ -71,7 +71,7 @@
                             <h2 class="contact-title">Get in Touch</h2>
                         </div>
                         <div class="col-lg-8">
-                            <form class="form-contact contact_form" action="contact_script/contact_process.php"
+                            <form class="form-contact contact_form" action="contact_script/contact_process"
                                 method="POST" id="contactForm">
                                 <div class="row">
                                     <div class="col-12">
@@ -140,7 +140,7 @@
 
 
         <!--blogs  footer-->
-        <?php include "includes/footer.php"; ?>
+        <?php include "includes/footer"; ?>
         <!--blogs  footer-->
 
         <script data-cfasync="false"

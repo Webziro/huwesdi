@@ -1,5 +1,5 @@
 <?php
-    include "includes/properties/title.php"
+    include "includes/properties/title"
 
 ?>
 
@@ -38,7 +38,7 @@
     <body>
 
         <!--header area Starts-->
-        <?php include "includes/header.php";?>
+        <?php include "includes/header";?>
         <!--header area Ends-->
 
 
@@ -71,12 +71,12 @@
 
 
         <!--blogs  subscribe-->
-        <?php include "includes/subscribe.php"; ?>
+        <?php include "includes/subscribe"; ?>
         <!--blogs  subscribe-->
 
 
         <!--blogs  footer-->
-        <?php include "includes/footer.php"; ?>
+        <?php include "includes/footer"; ?>
         <!--blogs  footer-->
 
 

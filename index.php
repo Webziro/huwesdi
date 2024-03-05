@@ -1,5 +1,5 @@
 <?php
-    include "includes/properties/title.php"
+    include "includes/properties/title"
 
 ?>
 
@@ -38,21 +38,21 @@
     <body>
 
         <!--header area Starts-->
-        <?php include "includes/header.php";?>
+        <?php include "includes/header";?>
         <!--header area Ends-->
 
 
 
         <!--Banner area Starts-->
-        <?php include "includes/banner.php"; ?>
+        <?php include "includes/banner"; ?>
         <!--Banner area Ends-->
 
         <!--Section1 Starts-->
-        <?php include "includes/section1.php" ?>
+        <?php include "includes/section1" ?>
         <!--Section1 Ends-->
 
         <!--Section2 Starts-->
-        <?php include "includes/section2.php"; ?>
+        <?php include "includes/section2"; ?>
         <!--Section2 Ends-->
 
         <!--Popular Cause Starts-->
@@ -62,7 +62,7 @@
 
 
         <!--volunteer Starts-->
-        <?php include "includes/volunteer.php"; ?>
+        <?php include "includes/volunteer"; ?>
         <!--Volunteer Ends-->
 
 
@@ -77,12 +77,12 @@
 
 
         <!--blogs  subscribe-->
-        <?php include "subscribe.php"; ?>
+        <?php include "subscribe"; ?>
         <!--blogs  subscribe-->
 
 
         <!--blogs  footer-->
-        <?php include "includes/footer.php"; ?>
+        <?php include "includes/footer"; ?>
         <!--blogs  footer-->
 
 
